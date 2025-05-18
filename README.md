@@ -1,34 +1,64 @@
-BAExamApp
-BAExamApp, ASP.NET Core MVC tabanlı, akademik kurumların sınav süreçlerini dijital olarak yönetmelerini sağlayan kapsamlı bir web uygulamasıdır.
-Bu sistem, öğretmenlerin sınav oluşturma ve yönetimini, öğrencilerin sınavlara katılımını ve sonuç takibini, ayrıca sistem yöneticilerinin kullanıcı yönetimini kolaylaştırır.
+<h1>BAExamApp</h1>
 
-Özellikler
-🎓 Öğretmen Modülü
-Sınav oluşturma, düzenleme ve silme
+<p><strong>BAExamApp</strong>, ASP.NET Core MVC tabanlı, akademik kurumların sınav süreçlerini dijital olarak yönetmelerini sağlayan kapsamlı bir web uygulamasıdır.<br>
+Bu sistem, öğretmenlerin sınav oluşturma ve yönetimini, öğrencilerin sınavlara katılımını ve sonuç takibini, ayrıca sistem yöneticilerinin kullanıcı yönetimini kolaylaştırır.</p>
 
-Sınıf ve öğrenci grupları oluşturma
+<h2>Özellikler</h2>
 
-Öğrenci performansını detaylı takip ve raporlama
+<h3>🎓 Öğretmen Modülü</h3>
+<ul>
+  <li>Sınav oluşturma, düzenleme ve silme</li>
+  <li>Sınıf ve öğrenci grupları oluşturma</li>
+  <li>Öğrenci performansını detaylı takip ve raporlama</li>
+  <li>Çoklu dil desteği</li>
+</ul>
 
-Çoklu dil desteği
+<h3>🧑‍🎓 Öğrenci Modülü</h3>
+<ul>
+  <li>Sınavlara giriş yapabilme</li>
+  <li>Sınav sonuçlarını görüntüleme</li>
+  <li>Sınav tarihlerini ve bilgilerini takip etme</li>
+</ul>
 
-🧑‍🎓 Öğrenci Modülü
-Sınavlara giriş yapabilme
+<h3>🛠 Admin Modülü</h3>
+<ul>
+  <li>Kullanıcı yönetimi (öğretmen, öğrenci, admin ekleme, düzenleme, silme)</li>
+  <li>Sistem genel ayarlarının kontrolü</li>
+</ul>
 
-Sınav sonuçlarını görüntüleme
+<h2>Teknolojiler ve Araçlar</h2>
 
-Sınav tarihlerini ve bilgilerini takip etme
-
-🛠 Admin Modülü
-Kullanıcı yönetimi (öğretmen, öğrenci, admin ekleme, düzenleme, silme)
-
-Sistem genel ayarlarının kontrolü
-
-Teknolojiler ve Araçlar
-Teknoloji / Araç	Açıklama
-ASP.NET Core MVC	Web uygulama çatısı
-Entity Framework Core	ORM ve veri erişimi
-Microsoft SQL Server	Veritabanı yönetim sistemi
-RabbitMQ	Mesaj kuyruğu yönetimi
-JWT	JSON Web Token ile kimlik doğrulama
-Razor Pages & Bootstrap	Frontend için kullanıcı arayüzü
+<table>
+  <thead>
+    <tr>
+      <th>Teknoloji / Araç</th>
+      <th>Açıklama</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ASP.NET Core MVC</td>
+      <td>Web uygulama çatısı</td>
+    </tr>
+    <tr>
+      <td>Entity Framework Core</td>
+      <td>ORM ve veri erişimi</td>
+    </tr>
+    <tr>
+      <td>Microsoft SQL Server</td>
+      <td>Veritabanı yönetim sistemi</td>
+    </tr>
+    <tr>
+      <td>RabbitMQ</td>
+      <td>Mesaj kuyruğu yönetimi</td>
+    </tr>
+    <tr>
+      <td>JWT</td>
+      <td>JSON Web Token ile kimlik doğrulama</td>
+    </tr>
+    <tr>
+      <td>Razor Pages &amp; Bootstrap</td>
+      <td>Frontend için kullanıcı arayüzü</td>
+    </tr>
+  </tbody>
+</table>
